@@ -5,12 +5,22 @@ const PROJECTS = [
   {
     name: "Huye Finds",
     category: "Web Applications",
-    desc: "A platform build for students and people in Huye to find and share information about local services, events, and opportunities.",
+    desc: "A platform built for students and people in Huye to find and share information about local services, events, and opportunities.",
     tech: ["TypeScript", "Node.js", "Express.js", "PostgreSQL"],
     tag: "Concept",
     icon: ShoppingBagIcon,
     glow: "var(--blue-glow)",
     projectLink: "https://huye-finds.xyz/",
+  },
+  {
+    name: "ELB SERVICES LTD Website",
+    category: "Web Applications",
+    desc: "A static site build for ELB Services Ltd, a construction and building services company based in Rutare, Rwanda.",
+    tech: ["Astro", "TypeScript", "Vercel"],
+    tag: "Concept",
+    icon: FileCode2,
+    glow: "var(--teal-glow)",
+    projectLink: "https://elbservicesgroup.vercel.app/",
   },
   // {
   //   name: "Northline Retail Platform",
